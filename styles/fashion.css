@@ -5,7 +5,7 @@ body {
 }
 
 .shared-margin {
-    margin: 0 135px;
+    margin: 0 auto;
 }
 
 .gray-color {
@@ -159,7 +159,7 @@ body {
 .popular-tour {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -194,6 +194,7 @@ body {
 
 .tour-places {
     position: relative;
+    margin-left: 80px;
 }
 
 .maldive {
@@ -283,9 +284,10 @@ body {
 
 
 .two-cards {
+    
     margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     gap: 0;
     margin-bottom: 30px;
 
@@ -439,6 +441,7 @@ body {
 
 .deals-discounts {
     margin-top: 100px;
+    margin-left: 80px;
 }
 
 .country-tour-des {
@@ -474,10 +477,9 @@ body {
 }
 
 .natural-beauty {
-    margin-top: 100px;
+    margin: 100px 80px 10px 80px ;
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
     text-align: left;
 
@@ -568,6 +570,7 @@ body {
 }
 
 .newslatter-part {
+ 
     width: 374px;
     height: 315px;
     border-radius: 16px;
@@ -586,7 +589,7 @@ body {
 .newslatter-view {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
