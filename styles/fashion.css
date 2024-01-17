@@ -69,6 +69,8 @@ body {
 }
 
 .find-search {
+    width: 130px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,27 +120,43 @@ body {
     line-height: 26px;
 }
 
-.white-bg {
+.where-go {
     border: #FF5400;
-    padding: 12px 55px 12px 10px;
+    padding: 10px;
     background-color: #FFF;
     border-radius: 8px;
+    width: 150px;
+    height: 20px;
 }
 
-.white-bg-select {
+.when {
     border: #FF5400;
-    padding: 12px;
+    padding: 10px;
     background-color: #FFF;
     border-radius: 8px;
+    width: 150px;
+    height: 20px;
+}
+.select-type {
+    height: 20px;
+    border: #FF5400;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 8px;
+    width:150px;
 }
 
 .lol {
+   position: relative;
+   top: -20px;
 
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
 .background-bars {
 
+   
+    width: 180px;
     margin: 30px 100px 50px 250px;
     display: inline-flex;
     padding: 16px;
@@ -869,7 +887,8 @@ body {
     }
 
     .book-btn{
-        margin-left: 100px;
+        position: relative;
+        left: 110px;
     }
     .card1,
     .single-card {
